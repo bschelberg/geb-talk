@@ -7,7 +7,7 @@ class WikipediaPage extends Page {
     static at = { assert title == 'Wikipedia' }
     static content = {
         searchInput { $('input', name: 'search') }
-        searchButton { $('.searchButton') }
+        searchButton { $('input', name: 'go') }
     }
 
     void searchFor(String searchTerm) {

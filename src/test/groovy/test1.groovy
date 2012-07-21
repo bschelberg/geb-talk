@@ -8,7 +8,7 @@ Browser.drive {
     $("form#searchform").with {
         search = "geb"
     }
-    $('.searchButton').click()
+    $('input', name: 'go').click()
 
     assert title.contains('Geb')
 
