@@ -7,8 +7,11 @@ To try out the Groovy / Geb examples:
 Run `src/test/groovy/test1.groovy` or `src/test/groovy/test2.groovy`
 
 To run the cucumbers:
-   mvn test
+
+    mvn test
+
 or
+
 	mvn test -DtagArg="@wikipedia"
 	mvn test -DtagArg="@slavery_footprint"
 
